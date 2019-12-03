@@ -1,0 +1,27 @@
+public class bike()
+{
+    //attributes for bike class
+    String manufacturer;
+    String model_year;
+    //constructor chain for bike class with information given
+    public bike(){
+    }
+
+    public bike(String manufacturer){
+        this.manufacturer = manufacturer;
+    }
+
+    public bike(String manufacturer, String model_year){
+        this.manufacturer = manufacturer;
+        this.model_year = model_year;
+    }
+    
+    private void setManufacturer(String manufacturer){
+        this.manufacturer = manufacturer;
+    }
+
+    private String getManufacturer(){
+        return this.manufacturer;
+    }
+
+}

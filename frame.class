@@ -1,0 +1,9 @@
+public class frame()
+{
+    //Attributes for frame class
+    String frame_serialnumber;
+    Double frame_weight;
+    String frame_type;
+    String frame_material;
+
+}
