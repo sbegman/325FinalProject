@@ -1,8 +1,8 @@
-public class bike()
+public abstract class bike()
 {
     //attributes for bike class
     String manufacturer;
-    String model_year;
+    String modelYear;
     //constructor chain for bike class with information given
     public bike(){
     }
@@ -11,17 +11,24 @@ public class bike()
         this.manufacturer = manufacturer;
     }
 
-    public bike(String manufacturer, String model_year){
+    public bike(String manufacturer, String modelYear){
         this.manufacturer = manufacturer;
-        this.model_year = model_year;
+        this.modelYear = modelYear;
     }
-    
-    private void setManufacturer(String manufacturer){
+
+    void setManufacturer(String manufacturer){
         this.manufacturer = manufacturer;
     }
 
-    private String getManufacturer(){
+    String getManufacturer(){
         return this.manufacturer;
     }
 
+    void setModelYear(String modelYear){
+        this.modelYear = modelYear;
+    }
+
+    String getModelYear(){
+        return this.modelYear
+    }
 }

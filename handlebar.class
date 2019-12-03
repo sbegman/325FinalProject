@@ -6,5 +6,5 @@ public class handlebar()
     Boolean is_flat;
     Boolean is_riser; 
 
-    String handlebar_type;
+    String handlebar_
 }

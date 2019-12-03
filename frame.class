@@ -6,4 +6,7 @@ public class frame()
     String frame_type;
     String frame_material;
 
+    //Types of frames
+    
+
 }
